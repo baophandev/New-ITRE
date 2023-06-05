@@ -67,23 +67,6 @@ var data = {
         "1": "Document/CT188/CT188 - Web.rar",
         "2" : "Document/CT188/Silde-CT188.rar"
       }
-    },
-    {
-      "subjectname": "phan bảo ngọc",
-      "subjectid": "ct188",
-      "image": "image/8022682955_421bc6ff5a_b-e1629676847648.webp",
-      "hard": "5",
-      "author": "Gia Bảo",
-      "detail": "Document/CT175.pdf",
-      "describe": "Học về HTML, CSS, JS và các thư viện, Framework. Môn này rất nặng về lý thuyết và cả thực hành do học rất nhiều thứ trong 3 chỉ.",
-      "documentname": {
-        "1": "Sữa chua Free",
-        "2" : "Bài giảng"
-      },
-      "document": {
-        "1": "Document/CT188/CT188 - Web.rar",
-        "2" : "Document/CT188/Silde-CT188.rar"
-      }
     }
   ]
 };
