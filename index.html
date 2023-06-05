@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tóm tắt kiến thức cho sinh viên IT</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body onload="">
+    <header>
+    </header>
+    <main>
+        <article>
+            <div class="big-circle">
+            </div>
+        </article>
+        <article class="menu">
+            <div class="script">
+                <button onclick="show_script()">?</button>
+                <div id="script">
+                    <p> - Gõ "all" vào ô tìm kiếm để xem tất cả môn học</p>
+                </div>
+            </div>
+        </article>
+        <article class="container">
+            <div class="search">
+                <input type="text" placeholder="Nhập mã hoặc tên học phần" id="search-space" oninput="show()">
+                <button id="search-button" onclick="show()">Search</button>
+                
+            </div>
+            <div class="content-none">
+                <div class="content-top">
+                    <p style="color: rgb(198, 109, 109)">Không tìm thấy dữ liệu</p>
+                </div>
+            </div>
+            <div class="show-container">
+
+            </div>
+            <button id="reset-button" onclick="load()">Reset</button>
+        </article>
+        
+    </main>
+    <script src="JS/script.js"></script>
+</body>
+</html>
