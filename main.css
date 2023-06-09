@@ -222,3 +222,8 @@ main{
         width: 320px;
     }
 }
+
+.CTDL{
+    padding: 20px;
+    border: 1px solid white;
+}
