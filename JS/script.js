@@ -14,7 +14,7 @@ var data = {
       },
       "document": {
         "1": "https://link1s.com/yBlb9A",
-        "2" : "https://drive.google.com/file/d/1ennmct0nWiMWBz8cgiZpZCWAhhk6faKd/view?usp=sharing"
+        "2" : "https://link1s.com/1bvOBO"
       }
     },
     {
@@ -31,9 +31,9 @@ var data = {
         "3" : "Bài giảng"
       },
       "document": {
-        "1": "Document/Lý thuyết cuối kì PT&TKTT.docx",
-        "2" : "Document/SOURCE CODE.docx",
-        "3" : "Document/Ly Thuyet do thi.pdf"
+        "1": "https://link1s.com/YFQZ7",
+        "2" : "https://link1s.com/ey66fU",
+        "3" : "https://link1s.com/eS3SxwUi"
       }
     },
     {
