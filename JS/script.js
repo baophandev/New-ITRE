@@ -13,8 +13,8 @@ var data = {
         "2" : "Bài giảng"
       },
       "document": {
-        "1": "Document/Phan Gia Bao Thoery Graph.pdf",
-        "2" : "Document/Ly Thuyet do thi.pdf"
+        "1": "https://link1s.com/yBlb9A",
+        "2" : "https://drive.google.com/file/d/1ennmct0nWiMWBz8cgiZpZCWAhhk6faKd/view?usp=sharing"
       }
     },
     {
