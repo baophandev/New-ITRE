@@ -70,11 +70,11 @@ var data = {
     },
     {
       "subjectname": "Lập trình hướng đối tượng",
-      "subjectid": "ct173",
+      "subjectid": "ct176",
       "image": "image/8022682955_421bc6ff5a_b-e1629676847648.webp",
       "hard": "5",
       "author": "Gia Bảo",
-      "detail": "",
+      "detail": "https://www.cit.ctu.edu.vn/decuong/CT176.pdf",
       "describe": "Học về kiểu lập trình mới thoy, thực hành dễ nhưng lý thuyết khó lắm",
       "documentname": {
         "1": "Code nè",
