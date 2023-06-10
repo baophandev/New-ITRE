@@ -67,6 +67,23 @@ var data = {
         "1": "https://link1s.com/mrG3n",
         "2" : "https://link1s.com/1Z96p2Xb"
       }
+    },
+    {
+      "subjectname": "Lập trình hướng đối tượng",
+      "subjectid": "ct173",
+      "image": "image/8022682955_421bc6ff5a_b-e1629676847648.webp",
+      "hard": "5",
+      "author": "Gia Bảo",
+      "detail": "",
+      "describe": "Học về kiểu lập trình mới thoy, thực hành dễ nhưng lý thuyết khó lắm",
+      "documentname": {
+        "1": "Code nè",
+        "2" : "Bài giảng"
+      },
+      "document": {
+        "1": "https://link1s.com/aDYQLG",
+        "2" : "https://drive.google.com/drive/folders/1lEMtoa-_slAg8aR_qfnx3vV_bpbfPr-l?usp=sharing"
+      }
     }
   ]
 };
