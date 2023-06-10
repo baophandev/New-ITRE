@@ -54,7 +54,7 @@ var data = {
     {
       "subjectname": "nhập môn lập trình web",
       "subjectid": "ct188",
-      "image": "image/8022682955_421bc6ff5a_b-e1629676847648.webp",
+      "image": "image/jhep-coursera-course4.png",
       "hard": "5",
       "author": "Gia Bảo",
       "detail": "Document/CT175.pdf",
@@ -69,9 +69,9 @@ var data = {
       }
     },
     {
-      "subjectname": "Lập trình hướng đối tượng",
+      "subjectname": "lập trình hướng đối tượng",
       "subjectid": "ct176",
-      "image": "image/8022682955_421bc6ff5a_b-e1629676847648.webp",
+      "image": "image/oop-la-gi-fi.jpg",
       "hard": "5",
       "author": "Gia Bảo",
       "detail": "https://www.cit.ctu.edu.vn/decuong/CT176.pdf",
@@ -83,6 +83,21 @@ var data = {
       "document": {
         "1": "https://link1s.com/aDYQLG",
         "2" : "https://drive.google.com/drive/folders/1lEMtoa-_slAg8aR_qfnx3vV_bpbfPr-l?usp=sharing"
+      }
+    },
+    {
+      "subjectname": "kiến trúc máy tính",
+      "subjectid": "ct176",
+      "image": "image/images.png",
+      "hard": "5",
+      "author": "Gia Bảo",
+      "detail": "https://www.cit.ctu.edu.vn/decuong/CT176.pdf",
+      "describe": "học về thứ những nhỏ nhất tới thứ lớn nhất của một chiếc máy tính , rất là khó",
+      "documentname": {
+        "1": "Bài giảng"
+      },
+      "document": {
+        "1": "https://www.cit.ctu.edu.vn/~dtnghi/cod/index.html"
       }
     }
   ]
@@ -197,3 +212,20 @@ function show_script(){
   else 
     script.style.display = "none";
 }
+
+window.addEventListener('DOMContentLoaded', (event) => {
+  // Kiểm tra nếu đã lưu trữ số lượt xem trong local storage
+  if (localStorage.viewCount) {
+    // Lấy số lượt xem từ local storage
+    var count = parseInt(localStorage.viewCount);
+    // Tăng giá trị lượt xem lên 1
+    count += 1;
+    // Cập nhật số lượt xem mới vào local storage
+    localStorage.viewCount = count;
+    // Hiển thị số lượt xem trên trang web
+    document.getElementById('viewCount').textContent = count;
+  } else {
+    // Nếu chưa có số lượt xem trong local storage, khởi tạo giá trị là 1
+    localStorage.viewCount = 1;
+  }
+});
