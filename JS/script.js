@@ -39,7 +39,7 @@ var data = {
     {
       "subjectname": "kinh tế chính trị",
       "subjectid": "ml016",
-      "image": "Document/KTCT/download.jpg",
+      "image": "image/download.jpg",
       "hard": "4",
       "author": "Gia Bảo",
       "detail": "Document/KTCT/ML016.pdf",
@@ -48,7 +48,7 @@ var data = {
         "1": "Trắc nghiệm cả kỳ"
       },
       "document": {
-        "1": "Document/KTCT/KTCT.rar"
+        "1": "https://link1s.com/Zld49vM"
       }
     },
     {
@@ -64,8 +64,8 @@ var data = {
         "2" : "Bài giảng"
       },
       "document": {
-        "1": "Document/CT188/CT188 - Web.rar",
-        "2" : "Document/CT188/Silde-CT188.rar"
+        "1": "https://link1s.com/mrG3n",
+        "2" : "https://link1s.com/1Z96p2Xb"
       }
     }
   ]
