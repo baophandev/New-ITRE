@@ -22,6 +22,7 @@
                 <button onclick="show_script()">?</button>
                 <div id="script">
                     <p> - Gõ "all" vào ô tìm kiếm để xem tất cả môn học</p>
+                    <a href=""> About us</a>
                 </div>
             </div>
         </article>
@@ -40,31 +41,54 @@
             </div>
             <button id="reset-button" onclick="load()">Reset</button>
         </article>
+        
     </main>
-    <article>
-        <h1 style="color: white; text-align: center;">Các bạn có tài liệu các môn học hay tải lên <a target= "_blank" href="https://drive.google.com/drive/folders/1b0AlxsN437djFW83Di-qIF-LkEOlpjO8?usp=sharing" style="text-decoration: none; color: aqua;">Tại đây</a> nhé</h1>
-
-        <h1 style="color: white; text-align: center;">CẤU TRÚC DỮ LIỆU</h1>
+    <div class="marquee">
+        <span>Gõ ALL để xem toàn bộ môn học</span>
+    </div>
+    <article class="main_body">
         <div>
-            <div class="CTDL">
-                <h1 style="color: white;">Video giảng dạy sẽ được tải lên tại đây</h1>
+            <h1>BÀI GIẢNG GIÀNH RIÊNG CHO GEN Z</h1>
+            <div class="demo_course">
+                <a href=""><img src="/image/CTDL/CẤU TRÚC DỮ LIỆU.png" alt=""></a>
+                <div>
+                    <p>TÁC GIẢ : PHAN GIA BẢO</p>
+                </div>
             </div>
         </div>
-        <h1 style="color: white; text-align: center;">HỌC IT</h1>
         <div>
-            <div class="CTDL">
-                <h1 style="color: white;">video sẽ được tải lên tại đây</h1>
+            <h1>TÀI LIỆU</h1>
+            <div class="demo_subject">
+                <a href=""><img src="/image/8022682955_421bc6ff5a_b-e1629676847648.webp" alt=""></a>
+                <div>
+                    <h1>Lý thuyết đồ thị</h1>
+                    <p>Tác giả : Phan Gia Bảo</p>
+                    <button onclick="showdemo(0)">XEM</button>
+                </div>
+            </div>
+            <div class="demo_subject">
+                <a href=""><img src="/image/giao-trinh-lich-su-dang-cong-san-viet-nam-danh-cho-bac-dai-hoc-khong-chuyen-ly-luan-chinh-tri-473446.webp" alt=""></a>
+                <div>
+                    <h1>Lịch sử Đảng CSVN</h1>
+                    <p>Tác giả : Phan Gia Bảo</p>
+                    <button onclick="showdemo(8)">XEM</button>
+                </div>
+            </div>
+            <div class="demo_subject">
+                <a href=""><img
+                        src="image/images.jpg"
+                        alt=""></a>
+                <div>
+                    <h1>Phân tích và thiết kế thuật toán</h1>
+                    <p>Tác giả : Phan Gia Bảo</p>
+                    <button onclick="showdemo(1)">XEM</button>
+                </div>
             </div>
         </div>
         <div>
-            <h1 style="color: rgb(62, 113, 113); font-size: 16px; text-align: center;">Do kinh tế khó khăn nên khi các bạn dowload tài liệu các bạn chịu khó xác nhận capcha 1 xíu cho tui kiếm cơm chứ không có mã độc gì đâu yên tâm :)))</h1>
+            <h1>HÀNG NGÀY</h1>
         </div>
     </article>
-    <h1 style="font-size: 16px; color: aliceblue;"><i class="fas fa-eye"></i><span id="viewCount">0</span></h1>
-    <footer>
-        <a href=""><i class="fab fa-youtube"></i></a>
-        <a href=""><i class="fab fa-facebook"></i></a>
-    </footer>
     <script src="JS/script.js"></script>
 </body>
 </html>

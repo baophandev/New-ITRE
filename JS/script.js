@@ -99,6 +99,51 @@ var data = {
       "document": {
         "1": "https://www.cit.ctu.edu.vn/~dtnghi/cod/index.html"
       }
+    },
+    {
+      "subjectname": "cấu trúc dữ liệu",
+      "subjectid": "ct177",
+      "image": "image/jhep-coursera-course4.png",
+      "hard": "5",
+      "author": "Gia Bảo",
+      "detail": "https://www.cit.ctu.edu.vn/decuong/CT177.pdf",
+      "describe": "Học về cách tổ chức dữ liệu trong 1 chương trình kết hợp nó với các thuật toán để tạo ra kết quả phù hợp",
+      "documentname": {
+        "1": "Bài giảng"
+      },
+      "document": {
+        "1": "https://www.cit.ctu.edu.vn/~dtnghi/cod/index.html"
+      }
+    },
+    {
+      "subjectname": "triết học mác - lênnin",
+      "subjectid": "ml014",
+      "image": "image/download (1).jpg",
+      "hard": "5",
+      "author": "Gia Bảo",
+      "detail": "https://sps.ctu.edu.vn/images/upload/daotao/decuong/ML014.pdf",
+      "describe": "Học về MQH giữa vật chất và ý thức, vật chất có trước hay con gà có trước ................ Khó",
+      "documentname": {
+        "1": "Câu hỏi"
+      },
+      "document": {
+        "1": "https://link1s.com/BfQP"
+      }
+    },
+    {
+      "subjectname": "lịch sử đảng",
+      "subjectid": "ml019",
+      "image": "image/giao-trinh-lich-su-dang-cong-san-viet-nam-danh-cho-bac-dai-hoc-khong-chuyen-ly-luan-chinh-tri-473446.webp",
+      "hard": "5",
+      "author": "Gia Bảo",
+      "detail": "https://sps.ctu.edu.vn/images/upload/daotao/decuong/ML014.pdf",
+      "describe": "là học lịch sử đó",
+      "documentname": {
+        "1": "1 đống trong đây nè"
+      },
+      "document": {
+        "1": "https://link1s.com/U6dLUq8"
+      }
     }
   ]
 };
@@ -229,3 +274,40 @@ window.addEventListener('DOMContentLoaded', (event) => {
     localStorage.viewCount = 1;
   }
 });
+
+function showdemo(x) {
+  var searchSpace = document.getElementById("search-space").value.toLowerCase();
+  var show_container = document.getElementsByClassName("show-container");
+
+  var div = document.createElement("div");
+  div.innerHTML = `
+    <div class="content">
+      <div class="content-top">
+        <div class="img">
+          <img src="${data.subject[x].image}" alt="">
+        </div>
+        <div class="topic">
+          <p>${data.subject[x].subjectname.toUpperCase()} - <span style="color: rgb(186, 186, 70);">${data.subject[x].subjectid.toUpperCase()}</span></p>
+          <p>Độ khó: ${data.subject[x].hard}</p>
+          <p style="color: rgb(192, 192, 77);"><i class="fas fa-pen-square"></i> ${data.subject[x].author}</p>
+        </div>
+      </div>
+      <div class="content-bottom">
+        <p>${data.subject[x].describe}</p>
+      </div>
+      <div class="document">
+        <a href="${data.subject[x].detail}"><i class="fas fa-info-circle"></i></a>
+      </div>
+    </div>
+  `;
+  show_container[0].appendChild(div);
+
+  var documentContainer = document.getElementsByClassName("document");
+
+  for (var j = 1; j <= Object.keys(data.subject[x].documentname).length; j++) {
+    var a = document.createElement("a");
+    a.href = data.subject[x].document[j];
+    a.innerHTML = data.subject[x].documentname[j];
+    documentContainer[documentContainer.length - 1].appendChild(a);
+  }
+}
