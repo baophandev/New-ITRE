@@ -322,3 +322,20 @@ main{
 .demo_subject > div{
     padding: 5px;
 }
+
+.Aus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Aus > img{
+    width: 200px;
+    border-radius: 1000px;
+    margin: 20px;
+}
+
+.Aus > div{
+    color: aliceblue;
+    padding-top: 40px;
+}
