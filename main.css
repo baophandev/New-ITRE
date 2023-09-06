@@ -339,3 +339,15 @@ main{
     color: aliceblue;
     padding-top: 40px;
 }
+
+
+.course{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.course > div > a > img{
+    width: 500px;
+    margin: 20px;
+}
