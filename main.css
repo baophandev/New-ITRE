@@ -217,11 +217,7 @@ main{
     margin: 5px;
 }
 
-@media (max-width: 768px) {
-    .container{
-        width: 320px;
-    }
-}
+
 
 .CTDL{
     padding: 20px;
@@ -350,4 +346,14 @@ main{
 .course > div > a > img{
     width: 500px;
     margin: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 320px;
+    }
+
+    .course > div > a > img{
+        width: 200px;
+    }
 }
